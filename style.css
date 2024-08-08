@@ -1,0 +1,335 @@
+#MyProfile
+{
+ 
+    background-color: green;
+    font-size: 30px;
+    border: 4px solid black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+#Home
+{
+
+    background-color: green;
+    font-size: 20px;
+    position: absolute;
+    top:4%;
+    right: 70%;
+    border: 2px solid black;
+    text-decoration: none;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+#Qualifications
+{
+    background-color: green;
+    font-size: 19px;
+    position: absolute;
+    top:4%;
+    right: 59%;
+    border: 2px solid black;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+
+}
+#JobInterests
+{
+    background-color: green;
+    font-size: 19px;
+    position: absolute;
+    top:4%;
+    right: 48%;
+    color: black;
+    border: 2px solid black;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#ExtraMurals
+{
+  
+    font-size: 19px;
+    position: absolute;
+    top:4%;
+    right: 37%;
+    border: 2px solid black;
+    color: black;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#Home :hover
+{
+font-size: 25px;
+}
+#Qualifications :hover
+{
+font-size: 25px;
+}
+#JobInterests :hover
+{
+font-size: 25px;
+}
+#ExtraMurals :hover
+{
+font-size: 25px;
+}
+a:active
+{
+    background-color: red;
+    
+}
+.list
+{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+.headings
+{
+    font-size: 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#About
+{
+position: absolute;
+    top: 10%;
+    right: 50%;
+ 
+}
+#Fav
+{
+    position: absolute;
+    top: 10%;
+    right: 5%;
+    border-left: 1px solid black;
+    height: 350px;
+
+}
+a{
+
+    color: black;
+}
+a:hover
+{
+    color: blue;
+}
+
+#Skills
+{
+  
+    position: absolute;
+    top: 10%;
+    right: 5%;
+    border-left: 1px solid black;
+    height: 550px;
+    
+
+}
+.Currently
+{
+    position: absolute;
+    top: 30%;
+    left: 3%;
+    
+}
+.futurePlans
+{
+    position: absolute;
+    top: 70%;
+    right: 49%;
+
+}
+.SkillsList
+{
+    
+    position: absolute;
+    top: 20%;
+    right: 1%;
+
+}
+
+#Current
+{
+    position: absolute;
+    top: 20%;
+    right: 53%;
+  
+}
+#Future
+{
+    position: absolute;
+    top: 53%;
+    right: 53%;
+  
+}
+#Border3
+{
+    border-bottom: 1px solid black;
+    width: 1177px;
+    position: absolute;
+    top: 25%;
+}
+#Border4
+{
+    border-bottom: 1px solid black;
+    width: 1177px;
+    left:  -8%;
+    position: absolute;
+    top: 100%;
+}
+#Border5
+{
+    border-bottom: 1px solid black;
+    width: 1177px;
+    position: absolute;
+    bottom: 35%;
+}
+#Border2
+{
+    border-bottom: 1px solid black ;
+    width: 1500px;
+    position: absolute;
+    top: 15%;
+}
+
+.Fav-Quotes
+{
+    position: absolute;
+    top: 20%;
+    right: 1%;
+    text-align: center;
+
+}
+#Sports
+{
+    text-align: center;
+    margin-top: 30px;
+}
+#Awards
+{
+    text-align: center;
+    margin-top: 30px;
+}
+#Societies
+{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.List3
+{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 18px;
+
+}
+#bottom
+{
+    border-bottom: 15px solid green;
+    size: 15px;
+    color: green;
+}
+.List4
+{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 18px;
+
+}
+.List2{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 18px;
+  
+}
+#More
+{
+    text-align: center;
+    margin-top: 30px; 
+}
+#break
+{
+    position: absolute;
+    right: 5%;
+    margin-bottom:px;
+
+    border-bottom: 1px solid black;
+    width:200px ;
+    height: 10px;
+}
+#ProfilePic
+{
+    
+    border-bottom: 1px solid black;
+    width: 5000px;
+    height: 40px;
+   
+}
+.Border
+{
+    border-right: 1px solid black;
+    width: 200px;
+    height: 350px;
+}
+#Khanyiso
+{
+
+    position: absolute;
+    top: 20%;
+    left: 1%;
+
+}
+.About-Myself
+{
+    position: absolute;
+    top: 20%;
+    right: 20%;
+     
+}
+p
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+footer{
+
+    text-align: center;
+    background-color: green;
+    margin-top: 350px;
+    padding: 8px;
+}
+
+#Software
+{
+    position: absolute;
+    top: 8%;
+    left: 10%;
+    border-right: 1px solid green;
+    height: 350px;
+    width: 550px;
+
+}
+#Business
+{
+    position: absolute;
+    top: 8%;
+    right: 10%;
+
+}
+.List5
+{
+    float: left;
+    margin-top: 80px;
+    margin-left: 50px;
+    font-size: large;
+}
+.List6
+{
+    float: right;
+    margin-top: 80px;
+    margin-right: 200px;
+    font-size: large;
+}
