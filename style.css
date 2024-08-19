@@ -75,16 +75,37 @@ font-size: 25px;
 {
 font-size: 25px;
 }
+
+
+#Home :active
+{
+    background-color: red;
+}
+#Qualifications :active
+{
+    background-color: red;
+}
+#JobInterests :active
+{
+    background-color: red;
+}
+#ExtraMurals :active
+{
+    background-color: red;
+}
+.list :active {
+    background-color: red;
+}
+
 a:active
 {
     background-color: red;
-    
 }
 .list
 {
     list-style: none;
     text-decoration: none;
-    color: black;
+  
 }
 .headings
 {
@@ -94,77 +115,135 @@ a:active
 
 #About
 {
-position: absolute;
-    top: 10%;
-    right: 50%;
- 
+text-align: center;
+
+border-bottom: 1px solid black;
+top:5px;
+}
+#ProfilePic
+{
+    float: left;
+    position: relative;
+    bottom: 25px;
+    margin-left: 50px ;
+    
+    
 }
 #Fav
-{
-    position: absolute;
-    top: 10%;
-    right: 5%;
+{float: right;
+    position: relative;
+    bottom: 25px;
     border-left: 1px solid black;
     height: 350px;
+
+}
+.Fav-Quotes
+{
+    float: right;
+    margin-top: 25px;
+    position: relative;
+    bottom: 1px;
+    right: 150px;
+
+}
+#break
+{
+    position: relative;
+    right: 5%;
+    margin-bottom:px;
+
+    border-bottom: 1px solid black;
+    width:200px ;
+    height: 10px;
+}
+.About-Myself
+{
+    position: relative;
+  text-align: center;
+  margin-top: 25px;
+}
+footer{
+
+    text-align: center;
+    position: relative;
+    top:30px;
+    background-color: green;
+margin-top: 15px;
+    padding: 8px;
+}
+
+#Skills
+{
+  
+    position: relative;
+    bottom: 25px;
+    float: right;
+    margin-right: 215px;
+    border-left: 1px solid black;
+    height: 600px;
+    
 
 }
 a{
 
     color: black;
+    
 }
 a:hover
 {
     color: blue;
 }
 
-#Skills
-{
-  
-    position: absolute;
-    top: 10%;
-    right: 5%;
-    border-left: 1px solid black;
-    height: 550px;
-    
 
-}
 .Currently
 {
-    position: absolute;
+    position: relative;
+    justify-content: left;
     top: 30%;
-    left: 3%;
+    margin-left: 30px;
     
+}
+#Current
+{
+    text-align: center;
+padding-top: 10px;
+border-bottom: 1px solid black;
+width: 1621px;
+}
+#Border4
+{
+    border-bottom: 1px solid black;
+    width:  1621px;
+    position: relative;
+   
+}
+
+
+
+#Future
+{
+   text-align: center;
+   border-bottom: 1px solid black;
+   width: 1621px;
+
 }
 .futurePlans
 {
-    position: absolute;
-    top: 70%;
-    right: 49%;
+    position: relative;
+    justify-content: left;
+    margin-left: 30px;
 
 }
+
 .SkillsList
 {
     
-    position: absolute;
-    top: 20%;
-    right: 1%;
-
+    float: right;
+    position: relative;
+    top: 50px;
+    left: 100px;
 }
 
-#Current
-{
-    position: absolute;
-    top: 20%;
-    right: 53%;
-  
-}
-#Future
-{
-    position: absolute;
-    top: 53%;
-    right: 53%;
-  
-}
 #Border3
 {
     border-bottom: 1px solid black;
@@ -172,18 +251,11 @@ a:hover
     position: absolute;
     top: 25%;
 }
-#Border4
-{
-    border-bottom: 1px solid black;
-    width: 1177px;
-    left:  -8%;
-    position: absolute;
-    top: 100%;
-}
+
 #Border5
 {
     border-bottom: 1px solid black;
-    width: 1177px;
+    width: 1621px;
     position: absolute;
     bottom: 35%;
 }
@@ -195,14 +267,7 @@ a:hover
     top: 15%;
 }
 
-.Fav-Quotes
-{
-    position: absolute;
-    top: 20%;
-    right: 1%;
-    text-align: center;
 
-}
 #Sports
 {
     text-align: center;
@@ -250,24 +315,7 @@ a:hover
     text-align: center;
     margin-top: 30px; 
 }
-#break
-{
-    position: absolute;
-    right: 5%;
-    margin-bottom:px;
 
-    border-bottom: 1px solid black;
-    width:200px ;
-    height: 10px;
-}
-#ProfilePic
-{
-    
-    border-bottom: 1px solid black;
-    width: 5000px;
-    height: 40px;
-   
-}
 .Border
 {
     border-right: 1px solid black;
@@ -282,34 +330,24 @@ a:hover
     left: 1%;
 
 }
-.About-Myself
-{
-    position: absolute;
-    top: 20%;
-    right: 20%;
-     
-}
+
 p
 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 15px;
 }
-footer{
 
-    text-align: center;
-    background-color: green;
-    margin-top: 350px;
-    padding: 8px;
-}
 
 #Software
 {
     position: absolute;
     top: 8%;
     left: 10%;
+
     border-right: 1px solid green;
     height: 350px;
-    width: 550px;
+    width:800px;
+    
 
 }
 #Business
@@ -318,6 +356,13 @@ footer{
     top: 8%;
     right: 10%;
 
+}
+#line
+{
+    width: 2000px;
+    position: absolute;
+    top:15%;
+    background-color: black;
 }
 .List5
 {
@@ -332,4 +377,10 @@ footer{
     margin-top: 80px;
     margin-right: 200px;
     font-size: large;
+}
+#footer2{
+
+    text-align: center;
+    background-color: green;
+    margin-top: 350px;
 }
