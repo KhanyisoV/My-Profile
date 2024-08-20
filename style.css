@@ -2,8 +2,8 @@
 {
  
     background-color: green;
+    padding: 5px;
     font-size: 30px;
-    border: 4px solid black;
     font-family: Georgia, 'Times New Roman', Times, serif;
 
 }
@@ -21,6 +21,7 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
 
 }
+
 #Qualifications
 {
     background-color: green;
@@ -58,26 +59,52 @@
     text-decoration: none;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+#Contact
+{
 
+    background-color: green;
+    font-size: 20px;
+    position: absolute;
+    top:4%;
+    right: 26%;
+    border: 2px solid black;
+    text-decoration: none;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
 #Home :hover
 {
 font-size: 25px;
+background-color: red;
+}
+#Contact :hover
+{
+font-size: 25px;
+background-color: red;
 }
 #Qualifications :hover
 {
 font-size: 25px;
+background-color: red;
 }
 #JobInterests :hover
 {
 font-size: 25px;
+background-color: red;
 }
 #ExtraMurals :hover
 {
 font-size: 25px;
+background-color: red;
 }
 
 
 #Home :active
+{
+    background-color: red;
+}
+#Contact :active
 {
     background-color: red;
 }
@@ -383,4 +410,9 @@ p
     text-align: center;
     background-color: green;
     margin-top: 350px;
+}
+form
+{
+    text-align: center;
+    margin-top: 50px;
 }

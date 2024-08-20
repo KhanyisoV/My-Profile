@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact me </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <h1 id="MyProfile">
+        My Profile
+        </h1>
+        <div class="list">
+        <li id="Qualifications"><a href="Qualifications.html">Qualifications</a></li>
+        <li id="JobInterests"><a href="JobIntrests.html">Job Interests</a></li>
+        <li id="ExtraMurals"><a href="Extra.html">Extra Murals</a></li>
+        <li id="Home"><a href="MyProfileIndex.html">Home</a></li>
+        <li id="Contact"><a href="Contact.html">Contact</a></li>
+        </div>
+    
+        <form>
+
+        <label for="Name"> Name :</label><br>
+        <input type="text" id="Name" name="Name"placeholder="John" required> <br><br>
+        <label for="Surname"> Surname :</label><br>
+        <input type="text" id="Surname" name="Surname"placeholder= "Wick" required> <br><br>
+        <label for="Cell"> Cell Number :</label><br>
+        <input type="tell" id="Cell" name="Cell" pattern="^\d{10}$"
+        placeholder="063848994"
+        title="Please enter a 10 digit phone number without any spaces or special charactors."
+        required> <br><br>
+        <label for="Email"> Email :</label><br>
+        <input type="email" id="Email" name="Email" placeholder="khanyVabaz@gmail.com" required> <br><br>
+
+        <label for="Budget Range"> Budget Range</label><br>
+        <select name="Budget Range" id="Budget" >
+            
+            <optgroup label="Budget Range">
+
+                <option value="Low">R10000 - R18000</option>
+                <option value="Mid">R19000 - R30000</option>
+                <option value="High">R31000 - R100000</option>
+            </optgroup>
+
+        </select> <br> <br>
+        <label for="Message"> Message</label><br>
+        <textarea id="Message" rows="15" cols="60"></textarea>
+        <br><br>
+
+        <input type="submit" value="Send"> <br> <br>
+        <input type="reset" value="Reset">
+
+        
+
+        </form>
+    
+        <footer>
+            © Copyright Khanyiso Vabaza 2024
+        </footer>
+
+
+        
+    </body>
+</html>
